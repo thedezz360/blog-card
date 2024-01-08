@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--font-title-size: 1.125rem;
+	--font-body-size: 0.875rem;
+	--font-small-text-size: 0.75rem;
+	--font-tag-size: 0.625rem; 
+}
+
+body{
+	font-family: "Sora";
+	font-size: var(--font-body-size);
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	background-color: #FAFAF9;
+	height: 100vh;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	width: 368px;
+	
+	margin-top: 164px;
+	background-color: #fff;
+	border-radius: 10px;
+	height: min-content;
+	box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1), 
+		5px 5px 10px 0px rgba(0, 0, 0, 0.03) ;
+}
+
+.card-header{
+	margin: 16px;
+}
+
+.card-img{
+	width: 336px;
+	height: auto;
+	margin-bottom: 16px;
+	border-radius: 10px;
+
+}
+
+.card-tag{
+	padding: 6px 16px;
+	background-color: #E6D6FC;
+	color: #883AE1;
+	font-weight: 700;
+	font-size: var(--font-tag-size);
+	border-radius: 12px;
+}
+
+.card-body{
+	margin: 0 16px;
+}
+
+.card-title{
+	font-size: var(--font-title-size);
+	font-weight: 700;
+	margin-bottom: 6px;
+	
+}
+
+.card-content{
+	color:#6C727F;
+	margin-bottom: 20px;
+}
+
+.card-separator{
+	border-width: 0;
+	height: 1px;
+	background-color: #E5EAF0;
+
+}
+
+.card-autor{
+	color:#6C727F;
+	padding: 20px 16px 20px 16px;
+	font-size: var(--font-small-text-size);
+}
